@@ -1,0 +1,9 @@
+signal,arguana,fiqa,nfcorpus,scidocs,scifact,ALL
+BASE RATE (docs relevant to a test query),0.1,0.24,0.312,0.307,0.105,0.213
+REPEAT RATE (test-relevant docs also usage-relevant),0.0,0.0,0.153,0.053,0.117,0.065
+kNN density (typical docs),0.653,0.619,0.528,0.622,0.572,0.599
+kNN density | docs not usage-relevant,0.672,0.67,0.545,0.689,0.592,0.634
+outlierness (-dens),0.347,0.381,0.472,0.378,0.428,0.401
+relevant to a usage query,0.444,0.346,0.367,0.315,0.505,0.396
+max-sim to usage queries,0.526,0.509,0.482,0.457,0.531,0.501
+top-3 sim to usage queries,0.525,0.53,0.49,0.495,0.544,0.517

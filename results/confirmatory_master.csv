@@ -1,0 +1,23 @@
+regime,strategy,final_ndcg,final_rep,final_rep_cached,mixed_0.25,mixed_0.50,bwt,ms_per_doc
+Base-5 BGE->BGE,CAGE+Quota (ours),0.313,0.4401,0.4766,0.3447,0.3765,-0.2123,0.0327
+Base-5 BGE->BGE,HitDensity+Quota,0.3038,0.4723,0.4525,0.3459,0.3881,-0.1946,0.0159
+Base-5 BGE->BGE,Hubness+Quota,0.3199,0.3205,0.4671,0.3201,0.3202,-0.2027,0.0238
+Base-5 BGE->BGE,Density+Quota,0.3157,0.3244,0.4703,0.3179,0.3201,-0.2149,0.0164
+Base-5 BGE->BGE,HubDensity-Pure+Quota,0.3156,0.3146,0.4773,0.3154,0.3151,-0.2086,0.0321
+Base-5 BGE->BGE,Random,0.2891,0.2958,0.4875,0.2908,0.2925,-0.2785,0.0003
+Base-5 BGE->BGE,K-Center+Quota (stratified coreset),0.2483,0.2465,0.4196,0.2478,0.2474,-0.2314,0.0744
+Base-5 E5->BGE Control,CAGE+Quota (ours),0.3294,0.4504,0.4853,0.3597,0.3899,-0.2027,0.0327
+Base-5 E5->BGE Control,HitDensity+Quota,0.3127,0.486,0.4642,0.356,0.3993,-0.1915,0.0163
+Base-5 E5->BGE Control,HubDensity-Pure+Quota,0.3311,0.3334,0.486,0.3317,0.3322,-0.2008,0.0323
+Base-5 E5->BGE Control,Hubness+Quota,0.3307,0.3365,0.4871,0.3322,0.3336,-0.1933,0.0232
+Base-5 E5->BGE Control,Density+Quota,0.3294,0.3304,0.4835,0.3297,0.3299,-0.2038,0.0174
+Base-5 E5->BGE Control,Random,0.2891,0.2958,0.4875,0.2908,0.2925,-0.2785,0.0002
+Base-5 E5->BGE Control,K-Center+Quota (stratified coreset),0.238,0.2445,0.4034,0.2396,0.2412,-0.2418,0.073
+Extended-8 Stream,CAGE+Quota (ours),0.3401,0.4732,0.5245,0.3734,0.4067,-0.2135,0.0457
+Extended-8 Stream,HitDensity+Quota,0.3305,0.523,0.5005,0.3787,0.4268,-0.1975,0.0216
+Extended-8 Stream,Density+Quota,0.3428,0.3589,0.5299,0.3469,0.3509,-0.2177,0.0244
+Extended-8 Stream,HubDensity-Pure+Quota,0.3426,0.3533,0.5243,0.3453,0.348,-0.2106,0.0451
+Extended-8 Stream,Hubness+Quota,0.3404,0.3497,0.5175,0.3428,0.3451,-0.2018,0.0335
+Extended-8 Stream,DecayedHit,0.2834,0.5911,0.5511,0.3603,0.4373,-0.3192,0.0003
+Extended-8 Stream,Random,0.3138,0.3283,0.5684,0.3174,0.3211,-0.2952,0.0002
+Extended-8 Stream,K-Center+Quota (stratified coreset),0.251,0.25,0.4491,0.2507,0.2505,-0.238,0.1123

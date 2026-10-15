@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "continualrag-bench"
+version = "0.1.0"
+description = "A leak-free benchmark for bounded-memory document eviction in continual RAG agents."
+readme = "README.md"
+authors = [{ name = "Samuel Raju Bethala" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+    "tqdm>=4.65",
+]
+
+[project.optional-dependencies]
+embed = ["torch>=2.0", "sentence-transformers>=2.2"]   # needed only to embed real BEIR data
+plots = ["matplotlib>=3.7", "seaborn>=0.12"]
+dev   = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/blck-iris/continualrag-bench"
+Paper = "https://github.com/blck-iris/continualrag-bench/blob/main/paper.pdf"
+
+[tool.setuptools.packages.find]
+include = ["continual_rag*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
