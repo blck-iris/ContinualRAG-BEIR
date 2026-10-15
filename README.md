@@ -65,8 +65,8 @@ Figures: [`assets/`](assets/). Pre-eviction audit (paper Table 1): [`results/aud
 ## Install
 
 ```bash
-git clone https://github.com/blck-iris/continualrag-bench.git
-cd continualrag-bench
+git clone https://github.com/blck-iris/ContinualRAG-BEIR.git
+cd ContinualRAG-BEIR
 pip install -e ".[dev]"          # core + tests
 pip install -e ".[embed]"        # + torch / sentence-transformers, only for real BEIR runs
 pytest                           # fast synthetic-data tests, no downloads
@@ -129,6 +129,6 @@ Frozen encoders (BGE-small, E5-small); each domain subsampled to 1,000 documents
   title  = {ContinualRAG-BEIR: Benchmarking and Diagnosing Bounded-Memory Eviction in Retrieval-Augmented Agents Under Sequential Domain Shift},
   author = {Bethala, Samuel Raju},
   year   = {2026},
-  url    = {https://github.com/blck-iris/continualrag-bench}
+  url    = {https://github.com/blck-iris/ContinualRAG-BEIR}
 }
 ```
