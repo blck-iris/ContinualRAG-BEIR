@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ContinualRAG-BEIR: Benchmarking and Diagnosing Bounded-Memory Eviction in Retrieval-Augmented Agents Under Sequential Domain Shift"
+authors:
+- family-names: "Bethala"
+  given-names: "Samuel Raju"
+year: 2026
+url: "https://github.com/blck-iris/ContinualRAG-BEIR"
+repository-code: "https://github.com/blck-iris/ContinualRAG-BEIR"
